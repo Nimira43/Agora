@@ -5,7 +5,7 @@ import { LuUser2 } from 'react-icons/lu'
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='dark' variant='dark' expand='md' collapseOnSelect>
         <Container>
           <Navbar.Brand href='/'>Agora</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navar-nav' />
