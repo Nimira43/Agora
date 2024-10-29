@@ -1,5 +1,9 @@
-export default function App() {
+const App = () => {
   return (
-    <div>Agora</div>
+    <div>
+      <h1>Agora</h1>
+    </div>
   )
 }
+
+export default App
