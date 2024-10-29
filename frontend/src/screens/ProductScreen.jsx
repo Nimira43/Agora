@@ -43,6 +43,23 @@ const ProductScreen = () => {
                   </Col>
                 </Row>
               </ListGroup.Item>
+              <ListGroup.Item>
+                <Row>
+                  <Col>Status:</Col>
+                  <Col>
+                    <strong>{product.countInStock > 0 ? 'In Stock' : 'Out of Stock'}</strong>
+                  </Col>
+                </Row>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Button
+                  className='btn-dk' 
+                  type='button'
+                  disabled={product.countInStock === 0}
+                >
+                  Add to Cart
+                </Button>
+              </ListGroup.Item>
             </ListGroup>
           </Card>
         </Col>

@@ -71,6 +71,10 @@ table th {
   background-color: #555;
   color: #ffee00;
 }
+.btn-dk:disabled {
+  background-color: #555;
+  color: #ffee00;
+}
 
 .btn-gd {
   background-color: #ffd700;
@@ -80,12 +84,20 @@ table th {
   background-color: #ffee00;
   color: #555;
 }
+.btn-gd:disabled {
+  background-color: #ffee00;
+  color: #555;
+}
 
 .btn-lg {
   background-color: #eee;
   color: #111;
 }
 .btn-lg:hover {
+  background-color: #ccc;
+  color: #555;
+}
+.btn-lg:disabled {
   background-color: #ccc;
   color: #555;
 }
