@@ -19,13 +19,32 @@ const ProductScreen = () => {
       <Link className='btn btn-dk my-3' to='/'>Return</Link>
       <Row>
         <Col md={5}>
-
+          <Image src={product.image} alt={product.name} fluid />
         </Col>
         <Col md={4}>
-        
+          <ListGroup variant='flush'>
+            <ListGroup.Item>
+              <h3>{product.name}</h3>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <Rating value={product.rating} text={`${product.numReviews} reviews`} />
+            </ListGroup.Item>
+            <ListGroup.Item>Price: £{product.price}</ListGroup.Item>
+          </ListGroup>
         </Col>
-        <Col md={3}>        >
-
+        <Col md={3}>        
+          <Card>
+            <ListGroup variant='flush'>
+              <ListGroup.Item>
+                <Row>
+                  <Col>Price: </Col>
+                  <Col>
+                    <strong>${product.price}</strong>
+                  </Col>
+                </Row>
+              </ListGroup.Item>
+            </ListGroup>
+          </Card>
         </Col>
       </Row>
     </>
