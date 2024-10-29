@@ -27,7 +27,7 @@ const products = [
   },
   {
     _id: '3',
-    name: 'Cannon EOS 80D DSLR Camera',
+    name: 'Canon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
@@ -40,7 +40,7 @@ const products = [
   },
   {
     _id: '4',
-    name: 'Sony Playstation 4 Pro White Version',
+    name: 'Sony Playstation 5 Pro White Version',
     image: '/images/playstation.jpg',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
