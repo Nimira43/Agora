@@ -1,13 +1,17 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { BiShoppingBag } from 'react-icons/bi'
 import { LuUser2 } from 'react-icons/lu'
+import logo from '../assets/logo1.png'
 
 const Header = () => {
   return (
     <header>
       <Navbar bg='dark' variant='dark' expand='md' collapseOnSelect>
         <Container>
-          <Navbar.Brand href='/'>Agora</Navbar.Brand>
+          <Navbar.Brand href='/'>
+            <img src={logo} alt='Agora Logo' width={25} className='logo'/>
+            Agora
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
