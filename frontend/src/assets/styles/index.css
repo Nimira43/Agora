@@ -62,3 +62,30 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.btn-dk {
+  background-color: #111;
+  color:#ffd700;
+}
+.btn-dk:hover {
+  background-color: #555;
+  color: #ffee00;
+}
+
+.btn-gd {
+  background-color: #ffd700;
+  color: #111;
+}
+.btn-gd:hover {
+  background-color: #ffee00;
+  color: #555;
+}
+
+.btn-lg {
+  background-color: #eee;
+  color: #111;
+}
+.btn-lg:hover {
+  background-color: #ccc;
+  color: #555;
+}
