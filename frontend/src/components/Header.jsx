@@ -12,7 +12,7 @@ const Header = () => {
           <LinkContainer to='/'>
             <Navbar.Brand>
               <img src={logo} alt='Agora logo' width={25} className='logo'/>
-              Agora
+              Amphora
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navar-nav' />
